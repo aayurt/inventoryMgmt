@@ -23,7 +23,7 @@ const Header=(props)=>{
     return (
       <header className="d-flex align-items-center justify-content-between">
         <h1 className="logo my-0 font-weight-normal h4">
-          <Link to="/">Inventory Mansment</Link>
+          <Link to="/">Inventory Management</Link>
         </h1>
 
         {props.isAuthenticated && (
